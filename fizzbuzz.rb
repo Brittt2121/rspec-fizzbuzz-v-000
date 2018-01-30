@@ -9,4 +9,3 @@ def fizzBuzz(number)
     number
   end
 end
-
