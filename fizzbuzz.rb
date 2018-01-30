@@ -2,10 +2,14 @@
 def fizzbuzz(int)
   if int % 3 == 0
     "Fizz"
-  end
-end
-def fizzbuzz(int)
+  end     
+
   if int % 5 == 0
     "Buzz"
+    end
+
+  if int % 3 == 0 && int % 5 == 0 
+    "Fizzbuzz"
   end
 end
+
